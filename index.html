@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Universe For My Love</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Cormorant+Garamond:ital,wght@0,600;1,600&family=Dancing+Script:wght@600&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="stars"></div>
+
+  <div class="intro-overlay" id="introOverlay">
+    <div class="intro-heart" id="introHeart">❤️</div>
+    <div class="intro-eyebrow">Enter into our cosmos</div>
+    <div class="intro-name display">Our Infinite Space</div>
+    <button class="intro-btn" id="introBtn">Open Universe</button>
+  </div>
+
+  <div class="mini-player hidden" id="miniPlayer">
+    <span class="mini-note">🎵</span> Currently Playing...
+  </div>
+
+  <div class="dots" id="dotNav">
+    <div class="dot active" data-index="0"></div>
+    <div class="dot" data-index="1"></div>
+    <div class="dot" data-index="2"></div>
+    <div class="dot" data-index="3"></div>
+    <div class="dot" data-index="4"></div>
+  </div>
+
+  <div class="scroller">
+    <div class="track" id="mainTrack">
+      
+      <section class="panel hero">
+        <div class="eyebrow">This universe is dedicated to my love...</div>
+        <h1 class="display">Happy Birthday <span class="birthday-cake">🎂</span></h1>
+        <p class="lead">Step inside this cosmic gallery of moments, sounds, and secrets meant entirely for you.</p>
+        <div class="scroll-hint">
+          <span>Scroll Up / Swipe</span>
+          <div class="arrow"></div>
+        </div>
+      </section>
+
+      <section class="panel">
+        <h2 class="section-title display italic">Our Shared Notes & Melodies</h2>
+        
+        <div class="photo-grid">
+          <div class="poster poster--small tilt-a pos-top-left">
+            <div class="poster-photo img-missing"></div>
+            <div class="poster-note">The day we first laughed together...</div>
+          </div>
+          <div class="poster poster--small tilt-b pos-top-right">
+            <div class="poster-photo img-missing"></div>
+            <div class="poster-note">Under the quiet starlight.</div>
+          </div>
+        </div>
+
+        <div class="cd-wrap">
+          <div class="cd" id="musicCd">
+            <div class="cd-hole"></div>
+          </div>
+        </div>
+        <button class="play-btn" id="playBtn"><span class="icon">▶</span></button>
+      </section>
+
+      
